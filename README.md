@@ -12,3 +12,9 @@ effective temperature. For my purposes here, I consider the planet to be in the 
 equilibrium temperature is within the habitable zone temperature limits of 207.5
 K and 320.4 K, and I consider the planet to be rocky if its radius is below
 the rocky-gas divide (1.23 earth-radii).
+
+I run the MCMC algorithm for a million successful jumps and define the
+burn-point as the first log-posterior that exceeds the median of the log-posterior
+chain. I find that it is 97% probable that Kepler-452b is a rocky, habitable zone
+planet and estimate a planetary temperature and radius of approximately 272
+K and 1.06 earth-radii respectively.
