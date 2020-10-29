@@ -3,7 +3,7 @@
 Kepler-452b was announced as a super-Earth exoplanet in 2015. It became the first potentially rocky Earth-like world to be found orbiting within the habitable
 zone of a Sun-like star.
 
-This project shows that it is highly probable that Kepler-452b is indeed a rocky, habitablezone planet. 
+This project shows that it is highly probable that Kepler-452b is indeed a rocky, habitable-zone planet. 
 I assume the small planet approximation and circular orbit. I fix some of the transit and orbital parameters, including inclination, transit
 duration, and orbital period, with the literature values (Jenkins et al. 2015)
 when modeling the data. I generate samples for planetary radius and equilibrium temperature by using a Markov Chain Monte Carlo (MCMC) algorithm
